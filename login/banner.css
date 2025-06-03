@@ -1,7 +1,8 @@
-.section-banner {
-    height: 100%;
+.section-banner1 {
+    height: 750px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     text-align: center;
     padding: 0 2.5rem;
@@ -9,7 +10,7 @@
 }
 .img-banner {
     width: 100%;
-    margin-top: 30%;
+    margin-top: 10%;
     max-width: 24rem;
     height: 30rem;
     background-color: gray;
@@ -21,13 +22,13 @@
 }
 .section-banner1 p {
     font-size: 1.6rem;
-    color: gray;
+    color:#646982;
     margin-top: 2rem;
 }
 
 .div-puntos {
     width: 100%;
-    background-color: red;
+    height: 3rem;
     display: flex;
     justify-content: center;
     gap: 1.5rem;
@@ -45,7 +46,30 @@
     background-color: #FF7622;
 }
 .btn-next {
+    display: block;
     display: flex;
     background-color: #FF7622;
+    align-items: center;
+    border-radius: 15px;
+    justify-content: center;
+    width: 100%;
+    height: 6.2rem;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    color: #FFffff;
+
+}
+.btn-skip {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 6.2rem;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    color: #646982;
 
 }
